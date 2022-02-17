@@ -5,14 +5,14 @@
 
 #if __has_include(<RNReanimated/Scheduler.h>)
 #include <RNReanimated/Scheduler.h>
-#include <RNReanimated/ShareableValue.h>
 #include <RNReanimated/RuntimeManager.h>
+#include <RNReanimated/ShareableValue.h>
 #include <RNReanimated/RuntimeDecorator.h>
 #include <RNReanimated/ErrorHandler.h>
 #else
 #include "Scheduler.h"
-#include "ShareableValue.h"
 #include "RuntimeManager.h"
+#include "ShareableValue.h"
 #include "RuntimeDecorator.h"
 #include "ErrorHandler.h"
 #endif
